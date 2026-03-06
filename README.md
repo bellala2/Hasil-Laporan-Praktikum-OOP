@@ -36,4 +36,5 @@
 *Jawaban:* Program akan *Error* (AttributeError) karena loop mencari method bernama `serang()`. Nama method harus persis sama agar sistem bisa memanggil fungsi tersebut secara otomatis tanpa peduli apa jenis objeknya. Inilah inti dari Polimorfisme: "Satu perintah, banyak bentuk aksi."
 
 Berikut adalah hasil output daari analisi 1 -6 : 
+
 <img width="1279" height="451" alt="Screenshot 2026-03-06 180426" src="https://github.com/user-attachments/assets/af3a26d8-7fd5-43a5-aca9-e6024345be7f" />
