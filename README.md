@@ -38,3 +38,33 @@
 Berikut adalah hasil output daari analisi 1 -6 : 
 
 <img width="1279" height="451" alt="Screenshot 2026-03-06 180426" src="https://github.com/user-attachments/assets/af3a26d8-7fd5-43a5-aca9-e6024345be7f" />
+
+*Tugas Kelompok*
+
+**📦 TechMaster Inventory System (OOP Implementation)**
+Sistem Inventaris Sederhana ini dibangun menggunakan bahasa pemrograman Python untuk mendemonstrasikan penerapan pilar-pilar Object-Oriented Programming (OOP) secara nyata.
+
+🛠️ Fitur & Implementasi OOP
+Project ini mengintegrasikan empat konsep utama OOP sebagai berikut:
+
+1. Abstraksi (Abstraction)
+Menggunakan ABC (Abstract Base Class) untuk mendefinisikan kelas induk BarangElektronik. Kelas ini berfungsi sebagai blueprint atau kerangka kerja yang mewajibkan kelas turunannya (Laptop & Smartphone) untuk mengimplementasikan method hitung_total dan tampilkan_detail.
+
+2. Enkapsulasi (Encapsulation)
+Data sensitif seperti __stok dan __harga disembunyikan menggunakan akses private.
+Validation: Penambahan stok melalui method tambah_stok() dilengkapi validasi agar tidak menerima nilai negatif.
+Getter: Menggunakan dekorator @property untuk mengakses data stok secara aman.
+
+3. Pewarisan (Inheritance)
+Kelas Laptop dan Smartphone mewarisi seluruh fungsionalitas dari BarangElektronik. Hal ini meminimalisir redundansi kode (Reusability) karena atribut dasar hanya didefinisikan satu kali di kelas induk.
+
+4. Polimorfisme (Polymorphism)
+Implementasi perhitungan pajak yang berbeda untuk setiap kategori barang:
+Laptop: Dikenakan pajak tambahan sebesar 10%.
+Smartphone: Dikenakan pajak tambahan sebesar 5%.
+Meskipun menggunakan nama method yang sama (hitung_total), setiap objek memberikan hasil kalkulasi yang berbeda sesuai dengan logika unik kelasnya.
+
+Berikut hasil Output nya : 
+
+<img width="1097" height="488" alt="Screenshot 2026-03-06 181710" src="https://github.com/user-attachments/assets/aa3a3948-d851-4959-956a-24691dae6b4e" />
+
